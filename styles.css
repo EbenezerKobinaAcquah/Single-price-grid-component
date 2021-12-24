@@ -1,0 +1,145 @@
+body, html{
+    
+    background-color: hsl(204, 43%, 93%);
+   
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400px;
+}
+
+
+.top{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    text-align: center;
+    left: 25%;
+    top: 20%;
+   
+
+}
+.left{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    background-color: #00a58f;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: 5%;
+}
+.right{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    background-color: #64bdaf;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    padding: 5%;
+}
+.heading{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    color: hsl(179, 62%, 43%);
+    font-size: x-large;
+    font-weight: bolder;
+}
+.thirty-day{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    right: 5%;
+    text-align: left;
+    color: hsl(71, 98%, 51%);
+    font-weight: bold;
+}
+.gain{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    text-align: left;
+    color: hsl(218, 22%, 67%);
+}
+.white{
+    color: white;
+}
+.big{
+    font-weight:bolder;
+}
+.margin{
+    margin-bottom: 7%;
+}
+.per-month{
+    color: #64bdaf;
+}
+.cost{
+    font-size: xx-large;
+}
+.btnColor{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btn {
+    transition-duration: 0.4s;
+  }
+  
+  .btn:hover {
+    background-color: #64bdaf; /* Green */
+    color: #00a58f;
+  }
+  
+  @media (max-width:768px){
+    
+      .top{
+          width: 80%;
+          height: 100%;
+          text-align: center;
+          left: 0;
+          right: 0;
+          top: 3%;  
+          
+      }
+      .gain{
+          top: 18%;
+      }
+      .left{
+          top: 35%;
+         
+            
+          width: 100%;  
+          height: 30%;  
+          bottom: 50%;
+         
+      } 
+      .right{
+          top: 65%;
+          
+          
+          width: 100%;
+          height: 40%;
+        margin-bottom: 10%;
+        
+         
+      }
+      .heading{
+          top: 3%;
+      }
+      .thirty-day{
+          top: 10%;
+      }
+      .btnColor{
+          padding: 10px 80px;
+      }
+
+  }
